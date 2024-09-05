@@ -50,7 +50,7 @@ int main(void)
 
     free(students);
 
-return EXIT_SUCCESS;
+    return EXIT_SUCCESS;
 }
 
 int printMenu()
