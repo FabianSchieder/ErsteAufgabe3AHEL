@@ -96,7 +96,7 @@ void printStudents(struct Student* students, size_t size)
 
 struct Student* getStudentsFile(int* size)
 {
-    char filename[100];
+    char filename[256];
     int count = 0;
 
     printf("Pfad: ");
@@ -133,7 +133,7 @@ struct Student* getStudentsFile(int* size)
 
 void writeStudentsFile(struct Student* students, size_t size)
 {
-    char filename[100];
+    char filename[256];
     printf("Pfad: ");
     scanf("%s", filename);
 
